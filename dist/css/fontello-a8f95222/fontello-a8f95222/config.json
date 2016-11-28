@@ -1,0 +1,74 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "a1d4b614f12cfe2b5aa66313ad88c90c",
+      "css": "users-outline",
+      "code": 59413,
+      "src": "typicons"
+    },
+    {
+      "uid": "e0d15ef5945000f5f264acc35494002f",
+      "css": "basket",
+      "code": 59392,
+      "src": "typicons"
+    },
+    {
+      "uid": "13ea1e82d38c7ed614d9ee85e9c42053",
+      "css": "folder-empty",
+      "code": 59393,
+      "src": "iconic"
+    },
+    {
+      "uid": "3def559c3c39b8500882e02892b7daa8",
+      "css": "picture",
+      "code": 59394,
+      "src": "entypo"
+    },
+    {
+      "uid": "96ea1be71f597a5bdfc8f791ada4f651",
+      "css": "archive",
+      "code": 59395,
+      "src": "entypo"
+    },
+    {
+      "uid": "6a06892e76b81e023da6ddfb38a26b37",
+      "css": "doc-text",
+      "code": 59396,
+      "src": "typicons"
+    },
+    {
+      "uid": "b9291bcef843b5ed9aeeeabc69615f7d",
+      "css": "menu",
+      "code": 59394,
+      "src": "custom_icons",
+      "selected": false,
+      "svg": {
+        "path": "M834 760Q876 760 907 790T938 865Q938 907 908 938T834 969L104 969Q60 969 30 938T0 865Q0 821 31 790T104 760L834 760ZM834 396Q878 396 908 427T938 500 908 573 834 603L104 603Q60 603 30 573T0 500 30 427 104 396L834 396ZM834 31Q878 31 908 62T938 135Q938 178 907 209T834 240L104 240Q61 240 31 209T0 135Q0 92 30 62T104 31L834 31Z",
+        "width": 938
+      },
+      "search": [
+        "menu"
+      ]
+    },
+    {
+      "uid": "861b6f41fa4faf9e2b4e425470a2e7b4",
+      "css": "menu-outline",
+      "code": 59396,
+      "src": "custom_icons",
+      "selected": false,
+      "svg": {
+        "path": "M885 812L156 812Q135 812 119 828T104 865 119 901 156 916L885 916Q906 916 922 901T938 865 922 828 885 812ZM885 708Q950 708 996 754T1041 865 996 975 885 1021L156 1021Q91 1021 46 975T0 865 46 754 156 708L885 708ZM885 447L156 447Q135 447 119 463T104 500 119 537 156 552L885 552Q906 552 922 537T938 500 922 463 885 447ZM885 343Q950 343 996 389T1041 500 996 610 885 656L156 656Q91 656 46 610T0 500 46 389 156 343L885 343ZM885 83L156 83Q135 83 119 98T104 135 119 172 156 187L885 187Q906 187 922 172T938 135 922 98 885 83ZM885-22Q950-22 996 24T1041 135 996 245 885 291L156 291Q91 291 46 245T0 135 46 24 156-22L885-22Z",
+        "width": 1041
+      },
+      "search": [
+        "menu-outline"
+      ]
+    }
+  ]
+}
