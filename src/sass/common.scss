@@ -9,6 +9,8 @@
       font-weight: normal;
       font-style: normal;
 }
+
+
 *[class*="ico_font_"]:after,*[class*="ico_font_"]:before{
 	font-family:'fontello';
 }
@@ -28,6 +30,9 @@ fieldset{
 a{
 	text-decoration:none; 
 	color:#333;
+	&:hover,&:focus{
+		color:#5580cf;		
+	}
 }
 html{font-size:14px;}
 body
@@ -44,6 +49,182 @@ h1,h2,h3,h4,h5,h6,strong,em,address{
 	position:absolute;
 	left:-9999px;
 }
+.clearFix:after{
+	content:"";
+	display:block;
+	clear:both;
+
+}
+.clearFix{
+	*zoom:1;
+}
+
+
+
+
+#header{
+	position:relative;
+	border-bottom:1px solid #a8afbb;
+	box-shadow:0 2px 3px rgba(0,0,0,0.3);
+	padding-bottom:20px;
+	margin-bottom:20px;
+	h1{
+		background-color:#5580cf;
+		text-align:center;
+		padding:8px 0;
+		margin-bottom:20px;
+	}
+	.login{
+		position:absolute;
+		top:4px;right:4px;
+		font-size:0.8em;
+		a{
+			display:block;
+			width:69px;
+			height:28px;
+			line-height:28px;
+			color:#fff;
+			text-shadow:0 0 2px rgba(0,0,0,0.7);
+			text-align:center;
+			border:1px solid rgba(29,45,27,0.5);
+			border-radius:3px;
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+18,5580cf+100 */
+				background: #7db9e8; /* Old browsers */
+				background: -moz-linear-gradient(top,  #7db9e8 18%, #5580cf 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  #7db9e8 18%,#5580cf 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  #7db9e8 18%,#5580cf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#5580cf',GradientType=0 ); /* IE6-9 */
+		}
+	
+	}
+	#gnb{
+		li{
+			float:left;
+			padding:0px 20px;
+			height:53px;
+		}
+		figure{
+			font-size:12px;
+			text-align:center;
+			&:before{
+			font-size:22px;
+			}
+		}
+		.ico_font_1:before{
+			content:"\e815";
+		}
+		.ico_font_2:before{
+			content:"\e804";
+		}
+		.ico_font_3:before{
+			content:"\e802";
+		}
+		.ico_font_4:before{
+			content:"\e801";
+		}
+		.ico_font_5:before{
+			content:"\e800";
+		}
+	}
+}
+
+.grid{
+	*[class*="col_pc_"]{
+		float:left;
+	}
+	.row{
+		*zoom:1;
+		&:after{
+			content:"";
+			display:block;
+			clear:both;
+		}
+	}
+	.col{
+		padding:0 10px;
+	}
+	.col_pc_1{
+		width:8.3333%;
+	}
+	.col_pc_2{
+		width:8.3333%*2;
+	}
+	.col_pc_3{
+		width:8.3333%*3;
+	}
+	.col_pc_4{
+		width:8.3333%*4;
+	}
+	.col_pc_5{
+		width:8.3333%*5;
+	}
+	.col_pc_6{
+		width:8.3333%*6;
+	}
+	.col_pc_7{
+	width:8.3333%*7;
+	}
+	.col_pc_8{
+		width:8.3333%*8;
+	}
+	.col_pc_9{
+		width:8.3333%*9;
+	}
+	.col_pc_10{
+		width:8.3333%*10;
+	}
+	.col_pc_11{
+		width:8.3333%*11;
+	}
+	.col_pc_12{
+		width:100%;
+	}
+}
+
+@media (max-width:480px){
+	.grid{
+		*[class*="col_pc_"]{
+			float:left;
+		}
+		.col_mobile_1{
+			width:8.3333%;
+		}
+		.col_mobile_2{
+			width:8.3333%*2;
+		}
+		.col_mobile_3{
+			width:8.3333%*3;
+		}
+		.col_mobile_4{
+			width:8.3333%*4;
+		}
+		.col_mobile_5{
+			width:8.3333%*5;
+		}
+		.col_mobile_6{
+			width:8.3333%*6;
+		}
+		.col_mobile_7{
+			width:8.3333%*7;
+		}
+		.col_mobile_8{
+			width:8.3333%*8;
+		}
+		.col_mobile_9{
+			width:8.3333%*9;
+		}
+		.col_mobile_10{
+			width:8.3333%*10;
+		}
+		.col_mobile_11{
+			width:8.3333%*11;
+		}
+		.col_mobile_12{
+			width:100%;
+		}
+	}
+}
+
 
 
 
