@@ -1,4 +1,16 @@
 <? include"inc/top.html"; ?>
+	<script type="text/javascript">
+		window.onload = function(){
+			var slrLogin = document.querySelector("slrLogin");
+			function chkSlrLogin(e){
+				e.preventDefault();
+				var thisid = this.user_id;
+				var user_id = /^[a-z]{1}\w{4,10}$/g;
+				user_id.exec(slrLogin.value);
+			}
+			slrLogin.onsubmit = chkSlrLogin;
+		}	
+	</script>
 	<title>SLRclub</title>
 	<link rel="stylesheet" type="text/css" href="css/login.css" media="all">
 
@@ -7,7 +19,7 @@
 	<? include "inc/header.html"; ?>
 	<div id="container" class="grid">
 	<h3 class="tit_1">SLRCLUB LOGIN</h3>
-	<form action="#" method="post">
+	<form action="#" method="post" id="slrLogin">
 		<fieldset>
 			<legend>회원 로그인</legend>
 			<div>
