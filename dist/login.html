@@ -1,16 +1,4 @@
 <? include"inc/top.html"; ?>
-	<script type="text/javascript">
-		window.onload = function(){
-			var slrLogin = document.querySelector("slrLogin");
-			function chkSlrLogin(e){
-				e.preventDefault();
-				var thisid = this.user_id;
-				var user_id = /^[a-z]{1}\w{4,10}$/g;
-				user_id.exec(slrLogin.value);
-			}
-			slrLogin.onsubmit = chkSlrLogin;
-		}	
-	</script>
 	<title>SLRclub</title>
 	<link rel="stylesheet" type="text/css" href="css/login.css" media="all">
 
@@ -19,7 +7,7 @@
 	<? include "inc/header.html"; ?>
 	<div id="container" class="grid">
 	<h3 class="tit_1">SLRCLUB LOGIN</h3>
-	<form action="#" method="post" id="slrLogin">
+	<form action="#" method="post">
 		<fieldset>
 			<legend>회원 로그인</legend>
 			<div>
@@ -35,7 +23,8 @@
 					<input type="checkbox" name="save_id" id="save_id"><label for="save_id">ID 저장</label>
 					<input type="checkbox" name="auto_lgoin" id="auto_lgoin" checked><label for="auto_lgoin">자동 로그인</label>
 				</p>
-				<p class="ico_font_6"> 회원 가입과 ID / 비밀번호 찾기는 모바일에서 지원하지 않습니다. <br>PC에서 접속해 진행해주시기 바랍니다.</p>
+				<p class="
+">회원 가입과 ID / 비밀번호 찾기는 모바일에서 지원하지 않습니다. <br>PC에서 접속해 진행해주시기 바랍니다.</p>
 			</div>
 			<p><input type="submit" value="LOGIN"></p>
 		</fieldset>
