@@ -69,6 +69,7 @@ h1,h2,h3,h4,h5,h6,strong,em,address{
 
 
 #header{
+	.goback{display:none;}
 	position:relative;
 	border-bottom:1px solid #a8afbb;
 	box-shadow:0 2px 3px rgba(0,0,0,0.3);
